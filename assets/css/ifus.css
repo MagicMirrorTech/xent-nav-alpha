@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  font-size: 5em;
+}
+
+.toHome a {
+  font-size: 3em;
+}
+
+
+.ifuItems {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.ifuItems a {
+  font-size: 5em;
+  padding: 5% 0;
+  padding-left: 3%;
+  text-decoration: none;
+  color: black;
+  border-bottom: solid black 1px;
+}
