@@ -1,24 +1,64 @@
-h1 {
-  text-align: center;
-  font-size: 5em;
+
+@media only screen and (max-width:799px) {
+
+    h1 {
+      text-align: center;
+      font-size: 5em;
+    }
+
+    p a {
+      font-size: 5em;
+    }
+
+
+    .homeOptions {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10%;
+    }
+
+    .homeOptions a {
+      font-size: 5em;
+      padding: 5% 0;
+      padding-left: 3%;
+      text-decoration: none;
+      color: black;
+      border-bottom: solid black 1px;
+    }
 }
 
-p a {
-  font-size: 5em;
-}
+@media only screen and (min-width:800px) {
 
 
-.homeOptions {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10%;
-}
+  h1 {
+    text-align: center;
+    font-size: 3em;
+  }
 
-.homeOptions a {
-  font-size: 5em;
-  padding: 5% 0;
-  padding-left: 3%;
-  text-decoration: none;
-  color: black;
-  border-bottom: solid black 1px;
+  p a {
+    font-size: 2em;
+  }
+
+
+  .homeOptions {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    margin-top: 5%;
+  }
+
+  .homeOptions a {
+    font-size: 4em;
+    padding: 5% 0;
+    padding-left: 3%;
+    text-decoration: none;
+    color: black;
+    border-bottom: none;
+    text-align: center;
+  }
+
+  .homeOptions a:hover {
+    opacity: .5;
+  }
+
+
 }

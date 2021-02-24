@@ -22,3 +22,37 @@ h1 {
   color: black;
   border-bottom: solid black 1px;
 }
+
+
+@media only screen and (min-width:600px) {
+
+
+  h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+
+  p a {
+    font-size: 2em;
+  }
+
+
+  .setupInfo {
+    margin-top: 3%;
+  }
+
+  .setupInfo ul li {
+    font-size: 2em;
+    padding: 2% 0;
+    padding-left: 3%;
+    text-decoration: none;
+    color: black;
+    border-bottom: none;
+  }
+
+  .setupInfo li:hover {
+    opacity: .5;
+  }
+
+
+}
